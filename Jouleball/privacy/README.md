@@ -1,5 +1,9 @@
 # Jouleball: Privacy Policy / Datenschutzerklärung
 
+*Publish this as one page at `https://<github-user>.github.io/jouleball/privacy` and enter that URL in App Store Connect. The postal address is filled in (Austrian developer: the Impressum duty under § 5 ECG / § 25 MedienG and the GDPR require it).*
+
+---
+
 ## English
 
 **Last updated:** October 10th 2026
@@ -33,7 +37,7 @@ Jouleball offers worldwide leaderboards through Apple's Game Center. Game Center
 
 ### Purchases
 
-If you buy an in-app purchase, the payment is processed entirely by Apple. The developer receives no personal payment information. See Apple's privacy policy at https://www.apple.com/legal/privacy/.
+Jouleball is free to download with a 7-day trial; the full game is a one-time in-app purchase. Starting the trial and buying the full game both go through Apple's App Store, and the payment is processed entirely by Apple. The developer receives no personal payment information and does not learn who you are. The app asks the App Store on your device whether the trial or the full game belongs to your Apple account, and keeps two things on your iPhone: the date your trial started and the latest date and time the app has seen (so that setting the clock back does not extend the trial). Neither leaves your iPhone. See Apple's privacy policy at https://www.apple.com/legal/privacy/.
 
 ### Crash reports
 
@@ -86,7 +90,7 @@ Jouleball bietet weltweite Bestenlisten über Apples Game Center. Game Center is
 
 ### Käufe
 
-Wenn du einen In-App-Kauf tätigst, wird die Zahlung vollständig von Apple abgewickelt. Der Entwickler erhält keine persönlichen Zahlungsdaten. Siehe Apples Datenschutzrichtlinie: https://www.apple.com/de/legal/privacy/.
+Jouleball ist kostenlos zu laden und enthält eine 7-tägige Testphase; die Vollversion ist ein einmaliger In-App-Kauf. Der Start der Testphase und der Kauf der Vollversion laufen über Apples App Store, die Zahlung wird vollständig von Apple abgewickelt. Der Entwickler erhält keine persönlichen Zahlungsdaten und erfährt nicht, wer du bist. Die App fragt den App Store auf deinem Gerät, ob Testphase oder Vollversion zu deinem Apple-Account gehören, und speichert auf deinem iPhone zwei Angaben: das Datum, an dem deine Testphase begonnen hat, und den spätesten Zeitpunkt, den die App gesehen hat (damit ein Zurückstellen der Uhr die Testphase nicht verlängert). Beide verlassen dein iPhone nicht. Siehe Apples Datenschutzrichtlinie: https://www.apple.com/de/legal/privacy/.
 
 ### Absturzberichte
 
