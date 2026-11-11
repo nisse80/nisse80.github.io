@@ -1,33 +1,109 @@
 <!doctype html>
 <html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>dropmeter — Support</title>
+<title>dropmeter Support</title>
+<meta name="description" content="Help with the dropmeter subscription, backups, a new iPhone and bug reports.">
+<link rel="canonical" href="https://nisse80.github.io/dropmeter/en/support.html">
+<link rel="alternate" hreflang="en" href="https://nisse80.github.io/dropmeter/en/support.html">
+<link rel="alternate" hreflang="de" href="https://nisse80.github.io/dropmeter/de/support.html">
+<link rel="alternate" hreflang="x-default" href="https://nisse80.github.io/dropmeter/en/support.html">
+<meta name="theme-color" content="#0b0f14">
+<link rel="icon" href="../img/favicon.ico" sizes="any">
+<link rel="icon" href="../img/favicon-32.png" type="image/png" sizes="32x32">
+<link rel="apple-touch-icon" href="../img/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="dropmeter">
+<meta property="og:locale" content="en_US">
+<meta property="og:title" content="dropmeter Support">
+<meta property="og:description" content="Help with the dropmeter subscription, backups, a new iPhone and bug reports.">
+<meta property="og:url" content="https://nisse80.github.io/dropmeter/en/support.html">
+<meta property="og:image" content="https://nisse80.github.io/dropmeter/img/og-en.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="dropmeter: Measured, not modelled.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="dropmeter Support">
+<meta name="twitter:description" content="Help with the dropmeter subscription, backups, a new iPhone and bug reports.">
+<meta name="twitter:image" content="https://nisse80.github.io/dropmeter/img/og-en.jpg">
 <style>
 @font-face { font-family: 'Barlow'; font-weight: 400; font-display: swap; src: url('../fonts/Barlow-400.woff2') format('woff2'); }
 @font-face { font-family: 'Barlow'; font-weight: 500; font-display: swap; src: url('../fonts/Barlow-500.woff2') format('woff2'); }
 @font-face { font-family: 'Barlow Condensed'; font-weight: 600; font-display: swap; src: url('../fonts/BarlowCondensed-600.woff2') format('woff2'); }
 @font-face { font-family: 'Barlow Condensed'; font-weight: 700; font-display: swap; src: url('../fonts/BarlowCondensed-700.woff2') format('woff2'); }
-:root { --bg:#0B0F14; --surface:#121820; --ink:#E8ECF0; --muted:#A9B4BF; --brand:#E0A63A; --line:#243040; }
+:root { --bg:#0b0f14; --surface:#121820; --ink:#e8ecf0; --muted:#9aa6b2; --brand:#ca8b1e; --brand-ink:#e0a63a; --line:#2c3640; color-scheme: dark; }
 * { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
 body { margin: 0; background: var(--bg); color: var(--ink); font: 400 17px/1.55 'Barlow', system-ui, sans-serif; }
-main { max-width: 720px; margin: 0 auto; padding: 48px 20px 64px; }
-h1, h2 { font-family: 'Barlow Condensed', system-ui, sans-serif; letter-spacing: .01em; }
-h1 { font-weight: 700; font-size: 40px; line-height: 1.05; margin: 0 0 8px; }
-h2 { font-weight: 600; font-size: 22px; text-transform: uppercase; letter-spacing: .08em; color: var(--brand); margin: 36px 0 8px; }
+main { max-width: 760px; margin: 0 auto; padding: 24px 16px 48px; }
+h1, h2, h3, .cond { font-family: 'Barlow Condensed', system-ui, sans-serif; }
+h1 { font-weight: 700; font-size: 40px; line-height: 1.05; margin: 32px 0 8px; }
+h2 { font-weight: 600; font-size: 22px; text-transform: uppercase; letter-spacing: .08em; color: var(--brand-ink); margin: 40px 0 8px; }
+h3 { font-weight: 600; font-size: 21px; line-height: 1.2; margin: 28px 0 6px; }
 p, li { color: var(--ink); }
 .meta { color: var(--muted); }
-a { color: var(--brand); }
+a { color: var(--brand-ink); text-underline-offset: 2px; }
 ul { padding-left: 20px; }
-nav { display: flex; gap: 16px; margin-bottom: 32px; font-family: 'Barlow Condensed', sans-serif; font-weight: 600; text-transform: uppercase; letter-spacing: .1em; }
-nav a { text-decoration: none; }
-footer { margin-top: 48px; padding-top: 16px; border-top: 1px solid var(--line); color: var(--muted); font-size: 14px; }
+.top { display: flex; justify-content: space-between; align-items: baseline; gap: 16px; }
+.top a { font-family: 'Barlow Condensed', sans-serif; font-weight: 600; text-transform: uppercase; letter-spacing: .1em; text-decoration: none; }
+.top .home { color: var(--ink); font-weight: 700; font-size: 22px; letter-spacing: .02em; text-transform: none; }
+footer { margin-top: 56px; padding-top: 16px; border-top: 1px solid var(--line); color: var(--muted); font-size: 15px; }
+footer nav { display: flex; flex-wrap: wrap; gap: 8px 20px; margin-bottom: 8px; }
+footer p { color: var(--muted); margin: 0; }
+.hero { padding: 32px 0 8px; }
+.wordmark { font-size: 64px; letter-spacing: .01em; margin: 0; }
+.rule { width: 48px; height: 3px; background: var(--brand); margin: 12px 0 16px; border: 0; }
+.claim { font-family: 'Barlow Condensed', sans-serif; font-weight: 700; font-size: 32px; line-height: 1.1; color: var(--brand-ink); margin: 0 0 12px; }
+.lead { font-size: 19px; color: var(--muted); margin: 0; max-width: 34em; }
+.benefits { display: grid; gap: 4px 24px; }
+.benefits h2 { margin-top: 28px; font-size: 19px; line-height: 1.3; }
+.benefits p { margin: 0; }
+.shots { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin: 40px 0 0; padding: 0; list-style: none; }
+.shots img { display: block; width: 100%; height: auto; border-radius: 4px; background: var(--surface); }
+.soon { margin-top: 40px; padding: 20px 16px; background: var(--surface); border-radius: 4px; }
+.soon strong { display: block; font-family: 'Barlow Condensed', sans-serif; font-weight: 700; font-size: 26px; line-height: 1.15; }
+.soon p { margin: 4px 0 0; color: var(--muted); }
+@media (min-width: 640px) {
+  main { padding: 32px 24px 64px; }
+  .wordmark { font-size: 88px; }
+  .claim { font-size: 40px; }
+  .benefits { grid-template-columns: repeat(3, 1fr); }
+  .shots { gap: 24px; }
+}
 </style></head>
 <body><main>
-<nav><a href="privacy.html">Privacy</a><a href="support.html">Support</a><a href="../de/support.html">Deutsch</a></nav>
-<h1>dropmeter — Support</h1>
-<p>Questions, a bug, or a range card that does not match your rifle? Write to <strong><a href="mailto:nils.h.wolf@gmail.com">nils.h.wolf@gmail.com</a></strong>. In the app, Settings &gt; Report a problem opens a mail with the app and iOS version filled in.</p>
-<p><strong>Subscriptions.</strong> Manage or cancel in iOS Settings &gt; [your name] &gt; Subscriptions. Restore a purchase on a new iPhone with RESTORE on the paywall or in Settings.</p>
-<p><strong>Your data.</strong> Everything stays on your iPhone. Settings &gt; Backup creates an encrypted backup; Export gives CSV and JSON. Both work without a subscription.</p>
-<p><strong>Before you rely on a card.</strong> A range card is valid only for that rifle, load and conditions. Check it at the range.</p>
-<footer>dropmeter · Measured, not modelled.<br>Nils Wolf · Erzherzog Rainer-Ring 4, A-2500 Baden, Austria · <a href="mailto:nils.h.wolf@gmail.com">nils.h.wolf@gmail.com</a></footer>
+<header class="top"><a class="home" href="../">dropmeter</a><a href="../de/support.html" hreflang="de" lang="de">Deutsch</a></header>
+<h1>dropmeter Support</h1>
+<p>Questions, a bug, or a range card that does not match your rifle? Write to <strong><a href="mailto:nils.h.wolf@gmail.com">nils.h.wolf@gmail.com</a></strong>. We read every message and answer as soon as we can.</p>
+<h2 id="subscription">Subscription</h2>
+<h3 id="how-do-i-start-the-free-trial">How do I start the free trial?</h3>
+<p>Open dropmeter and choose the yearly plan. New subscribers get the first 7 days free. Apple shows the price in your currency before you confirm, and charges it when the trial ends unless you cancel at least 24 hours before.</p>
+<h3 id="how-do-i-cancel">How do I cancel?</h3>
+<p>On your iPhone, open Settings &gt; [your name] &gt; Subscriptions &gt; dropmeter, or go straight to <a href="https://apps.apple.com/account/subscriptions">your subscriptions</a>. Cancel at least 24 hours before the current period ends. You keep dropmeter until the end of the period you paid for.</p>
+<h3 id="can-i-get-a-refund">Can I get a refund?</h3>
+<p>Apple sells and bills the subscription, so refunds go through Apple: sign in at <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a> and choose the dropmeter purchase. We never see your payment details and cannot refund a purchase ourselves.</p>
+<h3 id="i-subscribed-but-the-app-still-shows-the-paywall">I subscribed, but the app still shows the paywall.</h3>
+<p>Tap RESTORE on the paywall. Use the same Apple Account you subscribed with. If you subscribed a moment ago, give the App Store a minute and try again.</p>
+<h2 id="your-data">Your data</h2>
+<h3 id="what-happens-to-my-data-when-the-subscription-ends">What happens to my data when the subscription ends?</h3>
+<p>Nothing is deleted. Your rifles, sessions and groups stay on your iPhone. Without a subscription the app shows the paywall, but RESTORE and EXPORT MY DATA keep working: an encrypted backup, CSV and JSON. Subscribe again and everything is where you left it.</p>
+<h3 id="how-do-i-move-to-a-new-iphone">How do I move to a new iPhone?</h3>
+<p>On the old iPhone, open Settings &gt; Backup &gt; Back up and keep the file in Files, iCloud Drive or a mail to yourself. Or turn on “Automatic backup to iCloud Drive” there.</p>
+<p>On the new iPhone, install dropmeter and tap RESTORE on the paywall. Then open Settings &gt; Backup &gt; “Restore from file” or “Restore from iCloud Drive” and enter your passphrase.</p>
+<h3 id="i-forgot-my-backup-passphrase">I forgot my backup passphrase.</h3>
+<p>The passphrase cannot be recovered, not by us and not by Apple. Without it nobody can open that backup, which is the point of the encryption. If you set a hint, it is shown when you open the file. If your data is still on your iPhone, make a new backup with a new passphrase and keep that one safe.</p>
+<h3 id="where-is-my-data-stored">Where is my data stored?</h3>
+<p>Only on your iPhone. There is no account and no server. The <a href="privacy.html">privacy policy</a> has the details.</p>
+<h2 id="problems">Problems</h2>
+<h3 id="which-iphones-does-dropmeter-run-on">Which iPhones does dropmeter run on?</h3>
+<p>Any iPhone with iOS 16 or later.</p>
+<h3 id="how-do-i-report-a-bug">How do I report a bug?</h3>
+<p>In the app, open Settings &gt; Report a problem. It opens a mail with the app and model version filled in. Tell us what you did and what you expected; a screenshot helps. Your data is not attached; add an export only if you want to.</p>
+<h3 id="my-range-card-does-not-match-my-rifle">My range card does not match my rifle.</h3>
+<p>A range card is valid only for that rifle, that load and those conditions. Rows marked extrapolated lie beyond the distances you shot; shoot a group there to verify them. Check every card at the range before you rely on it. If a verified row is still off, write to us with an export of the session.</p>
+<h2 id="contact">Contact</h2>
+<p><strong><a href="mailto:nils.h.wolf@gmail.com">nils.h.wolf@gmail.com</a></strong><br>
+Nils Wolf, Erzherzog Rainer-Ring 4, 2500 Baden, Austria</p>
+<p>Terms of use: <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">Apple Standard EULA</a> · <a href="privacy.html">Privacy policy</a> · <a href="imprint.html">Imprint</a></p>
+<footer><nav><a href="privacy.html">Privacy</a> <a href="support.html">Support</a> <a href="imprint.html">Imprint</a> <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">Terms of use</a></nav>
+<p>dropmeter · Measured, not modelled. · Nils Wolf, 2500 Baden, Austria · <a href="mailto:nils.h.wolf@gmail.com">nils.h.wolf@gmail.com</a></p></footer>
 </main></body></html>

@@ -1,55 +1,114 @@
 <!doctype html>
 <html lang="de"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>dropmeter — Datenschutzerklärung</title>
+<title>dropmeter Datenschutzerklärung</title>
+<meta name="description" content="Die App dropmeter erhebt keine personenbezogenen Daten. Was auf deinem iPhone und auf dieser Website passiert.">
+<link rel="canonical" href="https://nisse80.github.io/dropmeter/de/privacy.html">
+<link rel="alternate" hreflang="en" href="https://nisse80.github.io/dropmeter/en/privacy.html">
+<link rel="alternate" hreflang="de" href="https://nisse80.github.io/dropmeter/de/privacy.html">
+<link rel="alternate" hreflang="x-default" href="https://nisse80.github.io/dropmeter/en/privacy.html">
+<meta name="theme-color" content="#0b0f14">
+<link rel="icon" href="../img/favicon.ico" sizes="any">
+<link rel="icon" href="../img/favicon-32.png" type="image/png" sizes="32x32">
+<link rel="apple-touch-icon" href="../img/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="dropmeter">
+<meta property="og:locale" content="de_DE">
+<meta property="og:title" content="dropmeter Datenschutzerklärung">
+<meta property="og:description" content="Die App dropmeter erhebt keine personenbezogenen Daten. Was auf deinem iPhone und auf dieser Website passiert.">
+<meta property="og:url" content="https://nisse80.github.io/dropmeter/de/privacy.html">
+<meta property="og:image" content="https://nisse80.github.io/dropmeter/img/og-de.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="dropmeter: Gemessen, nicht gerechnet.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="dropmeter Datenschutzerklärung">
+<meta name="twitter:description" content="Die App dropmeter erhebt keine personenbezogenen Daten. Was auf deinem iPhone und auf dieser Website passiert.">
+<meta name="twitter:image" content="https://nisse80.github.io/dropmeter/img/og-de.jpg">
 <style>
 @font-face { font-family: 'Barlow'; font-weight: 400; font-display: swap; src: url('../fonts/Barlow-400.woff2') format('woff2'); }
 @font-face { font-family: 'Barlow'; font-weight: 500; font-display: swap; src: url('../fonts/Barlow-500.woff2') format('woff2'); }
 @font-face { font-family: 'Barlow Condensed'; font-weight: 600; font-display: swap; src: url('../fonts/BarlowCondensed-600.woff2') format('woff2'); }
 @font-face { font-family: 'Barlow Condensed'; font-weight: 700; font-display: swap; src: url('../fonts/BarlowCondensed-700.woff2') format('woff2'); }
-:root { --bg:#0B0F14; --surface:#121820; --ink:#E8ECF0; --muted:#A9B4BF; --brand:#E0A63A; --line:#243040; }
+:root { --bg:#0b0f14; --surface:#121820; --ink:#e8ecf0; --muted:#9aa6b2; --brand:#ca8b1e; --brand-ink:#e0a63a; --line:#2c3640; color-scheme: dark; }
 * { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
 body { margin: 0; background: var(--bg); color: var(--ink); font: 400 17px/1.55 'Barlow', system-ui, sans-serif; }
-main { max-width: 720px; margin: 0 auto; padding: 48px 20px 64px; }
-h1, h2 { font-family: 'Barlow Condensed', system-ui, sans-serif; letter-spacing: .01em; }
-h1 { font-weight: 700; font-size: 40px; line-height: 1.05; margin: 0 0 8px; }
-h2 { font-weight: 600; font-size: 22px; text-transform: uppercase; letter-spacing: .08em; color: var(--brand); margin: 36px 0 8px; }
+main { max-width: 760px; margin: 0 auto; padding: 24px 16px 48px; }
+h1, h2, h3, .cond { font-family: 'Barlow Condensed', system-ui, sans-serif; }
+h1 { font-weight: 700; font-size: 40px; line-height: 1.05; margin: 32px 0 8px; }
+h2 { font-weight: 600; font-size: 22px; text-transform: uppercase; letter-spacing: .08em; color: var(--brand-ink); margin: 40px 0 8px; }
+h3 { font-weight: 600; font-size: 21px; line-height: 1.2; margin: 28px 0 6px; }
 p, li { color: var(--ink); }
 .meta { color: var(--muted); }
-a { color: var(--brand); }
+a { color: var(--brand-ink); text-underline-offset: 2px; }
 ul { padding-left: 20px; }
-nav { display: flex; gap: 16px; margin-bottom: 32px; font-family: 'Barlow Condensed', sans-serif; font-weight: 600; text-transform: uppercase; letter-spacing: .1em; }
-nav a { text-decoration: none; }
-footer { margin-top: 48px; padding-top: 16px; border-top: 1px solid var(--line); color: var(--muted); font-size: 14px; }
+.top { display: flex; justify-content: space-between; align-items: baseline; gap: 16px; }
+.top a { font-family: 'Barlow Condensed', sans-serif; font-weight: 600; text-transform: uppercase; letter-spacing: .1em; text-decoration: none; }
+.top .home { color: var(--ink); font-weight: 700; font-size: 22px; letter-spacing: .02em; text-transform: none; }
+footer { margin-top: 56px; padding-top: 16px; border-top: 1px solid var(--line); color: var(--muted); font-size: 15px; }
+footer nav { display: flex; flex-wrap: wrap; gap: 8px 20px; margin-bottom: 8px; }
+footer p { color: var(--muted); margin: 0; }
+.hero { padding: 32px 0 8px; }
+.wordmark { font-size: 64px; letter-spacing: .01em; margin: 0; }
+.rule { width: 48px; height: 3px; background: var(--brand); margin: 12px 0 16px; border: 0; }
+.claim { font-family: 'Barlow Condensed', sans-serif; font-weight: 700; font-size: 32px; line-height: 1.1; color: var(--brand-ink); margin: 0 0 12px; }
+.lead { font-size: 19px; color: var(--muted); margin: 0; max-width: 34em; }
+.benefits { display: grid; gap: 4px 24px; }
+.benefits h2 { margin-top: 28px; font-size: 19px; line-height: 1.3; }
+.benefits p { margin: 0; }
+.shots { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin: 40px 0 0; padding: 0; list-style: none; }
+.shots img { display: block; width: 100%; height: auto; border-radius: 4px; background: var(--surface); }
+.soon { margin-top: 40px; padding: 20px 16px; background: var(--surface); border-radius: 4px; }
+.soon strong { display: block; font-family: 'Barlow Condensed', sans-serif; font-weight: 700; font-size: 26px; line-height: 1.15; }
+.soon p { margin: 4px 0 0; color: var(--muted); }
+@media (min-width: 640px) {
+  main { padding: 32px 24px 64px; }
+  .wordmark { font-size: 88px; }
+  .claim { font-size: 40px; }
+  .benefits { grid-template-columns: repeat(3, 1fr); }
+  .shots { gap: 24px; }
+}
 </style></head>
 <body><main>
-<nav><a href="privacy.html">Datenschutz</a><a href="support.html">Hilfe</a><a href="../en/privacy.html">English</a></nav>
-<h1>dropmeter — Datenschutzerklärung</h1>
-<p class="meta">Stand: 2026-11-07</p>
-<p>dropmeter wird von Nils Wolf entwickelt (<a href="mailto:nils.h.wolf@gmail.com">nils.h.wolf@gmail.com</a>). Diese Erklärung beschreibt, was mit deinen Daten passiert, wenn du die App dropmeter für das iPhone nutzt.</p>
-<h2>Kurz gesagt</h2>
-<p>dropmeter erhebt keine personenbezogenen Daten. Es gibt kein Konto, keinen Server, keine Analyse und kein Tracking. Alles, was du eingibst, bleibt auf deinem iPhone.</p>
-<h2>Was auf deinem Gerät bleibt</h2>
-<p>Deine Gewehre, Zielfernrohre, Laborierungen, Sessions, Treffer, Einstellungen und berechneten Schusstafeln werden nur auf deinem iPhone im Speicher der App abgelegt. Wir erhalten sie nie.</p>
-<h2>Sensoren</h2>
-<ul><li><strong>Bewegung und Barometer:</strong> Wenn du im Planer VOM HANDY nutzt, liest die App den Neigungssensor, um den Schusswinkel zu messen; das Barometer trägt den Luftdruck ein. Die Werte werden auf dem Gerät für diese Rechnung verwendet und weder gespeichert noch versendet.</li><li><strong>Face ID:</strong> nur wenn du für das verschlüsselte Backup „Passphrase mit Face ID merken“ einschaltest. Face ID verarbeitet iOS; die App sieht deine biometrischen Daten nie.</li></ul>
-<h2>Exporte und Backups</h2>
-<p>Wenn du eine Schusstafel (PDF), CSV, JSON oder ein verschlüsseltes Backup exportierst, entsteht die Datei auf deinem iPhone und wird an das Teilen-Menü von iOS übergeben. Wohin sie geht (Dateien, Mail, AirDrop, Drucker), entscheidest du. Wenn du das automatische Backup in iCloud Drive einschaltest, liegt das verschlüsselte Backup in deinem eigenen iCloud-Account; wir können es nicht lesen.</p>
-<h2>Käufe</h2>
-<p>Abos werden von Apple verkauft und abgerechnet. Wir erhalten weder deinen Namen noch Zahlungsdaten noch deine Apple-ID. Die App liest den geprüften Kaufstatus auf deinem Gerät über StoreKit, um zu wissen, ob dein Abo aktiv ist.</p>
-<h2>Support-E-Mail</h2>
-<p>Wenn du uns schreibst (zum Beispiel über „Problem melden“ in den Einstellungen), erhalten wir, was du sendest, wie jede E-Mail, und nutzen es nur, um dir zu antworten. Wir löschen sie, sobald sie für deine Anfrage nicht mehr gebraucht wird.</p>
-<h2>Absturzberichte</h2>
-<p>Wenn du in den iOS-Einstellungen das Teilen von Analysedaten mit App-Entwicklern einschaltest, kann Apple uns anonyme Absturzberichte und Nutzungsstatistiken bereitstellen. Das steuerst du selbst; Apple verarbeitet sie nach seiner eigenen Datenschutzrichtlinie, und wir erhalten nichts, was dich identifiziert.</p>
-<h2>Daten löschen</h2>
-<p>Lösche die App, und alle von ihr gespeicherten Daten werden von deinem iPhone gelöscht. Backups, die du exportiert oder in deinem iCloud Drive abgelegt hast, bleiben in deiner Hand, bis du sie löschst.</p>
-<h2>Kinder</h2>
-<p>dropmeter richtet sich nicht an Kinder und erhebt von niemandem Daten.</p>
-<h2>Deine Rechte</h2>
-<p>Nach der DSGVO hast du das Recht auf Auskunft, Berichtigung, Löschung und Einschränkung der Verarbeitung deiner personenbezogenen Daten, auf Widerspruch und auf Datenübertragbarkeit. Wir speichern keine personenbezogenen Daten über dich, außer einer E-Mail, die du uns geschickt hast; für jedes dieser Rechte genügt eine Nachricht an uns. Du hast außerdem das Recht, dich bei einer Datenschutz-Aufsichtsbehörde zu beschweren, in Österreich bei der Datenschutzbehörde (dsb.gv.at).</p>
-<h2>Änderungen</h2>
+<header class="top"><a class="home" href="./">dropmeter</a><a href="../en/privacy.html" hreflang="en" lang="en">English</a></header>
+<h1>dropmeter Datenschutzerklärung</h1>
+<p class="meta">Stand: 11. November 2026</p>
+<p>Diese Erklärung beschreibt, was mit deinen Daten passiert, wenn du die App dropmeter für das iPhone nutzt und wenn du diese Website besuchst.</p>
+<h2 id="verantwortlicher-und-kontakt">Verantwortlicher und Kontakt</h2>
+<p>Nils Wolf<br>
+Erzherzog Rainer-Ring 4, 2500 Baden, Österreich<br>
+<a href="mailto:nils.h.wolf@gmail.com">nils.h.wolf@gmail.com</a></p>
+<h2 id="kurz-gesagt">Kurz gesagt</h2>
+<p>Die App dropmeter erhebt keine personenbezogenen Daten. Es gibt kein Konto, keinen Server, keine Analyse und kein Tracking. Alles, was du eingibst, bleibt auf deinem iPhone. Personenbezogene Daten erhalten wir nur, wenn du uns schreibst, und der Hoster dieser Website führt bei jedem Aufruf ein kurzes Server-Protokoll.</p>
+<h2 id="was-auf-deinem-geraet-bleibt">Was auf deinem Gerät bleibt</h2>
+<p>Deine Gewehre, Zielfernrohre, Laborierungen, Sessions, Treffer, Einstellungen und berechneten Schusstafeln werden nur auf deinem iPhone im Speicher der App abgelegt. Wir erhalten sie nie und verarbeiten sie deshalb auch nicht.</p>
+<h2 id="sensoren">Sensoren</h2>
+<ul><li><strong>Bewegung und Barometer:</strong> Wenn du im Planer VOM HANDY nutzt, liest die App den Neigungssensor, um den Schusswinkel zu messen; das Barometer trägt den Luftdruck ein. Die Werte werden auf dem Gerät für diese Rechnung verwendet und weder gespeichert noch versendet.</li><li><strong>Face ID:</strong> nur wenn du für die verschlüsselte Sicherung „Passphrase mit Face ID merken“ einschaltest. Face ID verarbeitet iOS; die App sieht deine biometrischen Daten nie.</li></ul>
+<h2 id="exporte-und-sicherungen">Exporte und Sicherungen</h2>
+<p>Wenn du eine Schusstafel (PDF), CSV, JSON oder eine verschlüsselte Sicherung exportierst, entsteht die Datei auf deinem iPhone und wird an das Teilen-Menü von iOS übergeben. Wohin sie geht (Dateien, Mail, AirDrop, Drucker), entscheidest du; der Dienst, den du wählst, verarbeitet sie nach seinen eigenen Bedingungen. Wenn du die automatische Sicherung in iCloud Drive einschaltest, liegt die verschlüsselte Sicherung in deinem eigenen iCloud-Account, den Apple nach seiner <a href="https://www.apple.com/legal/privacy/">Datenschutzrichtlinie</a> betreibt. Wir können sie nicht lesen.</p>
+<h2 id="kaeufe">Käufe</h2>
+<p>Abos werden von Apple verkauft und abgerechnet. Für App Store und Zahlung ist Apple selbst verantwortlich (<a href="https://www.apple.com/legal/privacy/">Datenschutzrichtlinie von Apple</a>). Wir erhalten weder deinen Namen noch Zahlungsdaten noch deinen Apple Account. Die App liest den geprüften Kaufstatus auf deinem Gerät über StoreKit, um zu wissen, ob dein Abo aktiv ist. Rechtsgrundlage: Vertragserfüllung, Art. 6 Abs. 1 lit. b DSGVO.</p>
+<h2 id="support-e-mail">Support-E-Mail</h2>
+<p>Wenn du uns schreibst (zum Beispiel über „Problem melden“ in den Einstellungen), erhalten wir deine E-Mail-Adresse, deine Nachricht und alles, was du anhängst. Eine Mail aus der App enthält außerdem die App-Version, die Version des Rechenmodells und die iOS-Version. Wir nutzen das nur, um dir zu antworten. Rechtsgrundlage: Art. 6 Abs. 1 lit. b DSGVO, wenn es um dein Abo oder die Nutzung der App geht, sonst unser berechtigtes Interesse, deine Frage zu beantworten, Art. 6 Abs. 1 lit. f DSGVO.</p>
+<p>Unser Postfach liegt bei Google (Gmail), Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Irland, das die Mails für uns empfängt und speichert. Google kann Daten in den USA verarbeiten; Google LLC ist nach dem EU-US Data Privacy Framework zertifiziert. Siehe die <a href="https://policies.google.com/privacy">Datenschutzerklärung von Google</a>. Wir löschen deine Mail, sobald sie für deine Anfrage nicht mehr gebraucht wird, außer eine gesetzliche Aufbewahrungsfrist verlangt etwas anderes.</p>
+<h2 id="absturzberichte">Absturzberichte</h2>
+<p>Wenn du in den iOS-Einstellungen das Teilen von Analysedaten mit App-Entwicklern einschaltest, kann Apple uns anonyme Absturzberichte und Nutzungsstatistiken bereitstellen. Rechtsgrundlage ist deine Einwilligung in den iOS-Einstellungen (Art. 6 Abs. 1 lit. a DSGVO), die du dort jederzeit widerrufen kannst. Apple verarbeitet die Daten nach seiner eigenen Datenschutzrichtlinie, und wir erhalten nichts, was dich identifiziert.</p>
+<h2 id="diese-website">Diese Website</h2>
+<p>Diese Website liegt auf GitHub Pages von GitHub, Inc., 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, USA, einer Tochter von Microsoft. Wenn du eine Seite aufrufst, verarbeiten und protokollieren die Server von GitHub deine IP-Adresse, Datum und Uhrzeit, die aufgerufene Seite, die verweisende Seite und die Kennung deines Browsers. GitHub braucht das, um die Seite auszuliefern und den Dienst sicher zu halten. Wir haben auf diese Protokolle keinen Zugriff. Rechtsgrundlage: unser berechtigtes Interesse an einer sicheren und zuverlässigen Website, Art. 6 Abs. 1 lit. f DSGVO.</p>
+<p>GitHub verarbeitet die Daten in den USA. GitHub, Inc. ist nach dem EU-US Data Privacy Framework zertifiziert, die Übermittlung stützt sich damit auf den Angemessenheitsbeschluss der EU-Kommission (Art. 45 DSGVO). Siehe die <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">Datenschutzerklärung von GitHub</a>.</p>
+<p>Die Website setzt keine Cookies, hat keine Analyse und lädt nichts von anderen Servern; die Schriften kommen von dieser Website.</p>
+<h2 id="daten-loeschen">Daten löschen</h2>
+<p>Lösche die App, und alle von ihr gespeicherten Daten werden von deinem iPhone gelöscht. Sicherungen, die du exportiert oder in deinem iCloud Drive abgelegt hast, bleiben in deiner Hand, bis du sie löschst.</p>
+<h2 id="kinder">Kinder</h2>
+<p>dropmeter richtet sich nicht an Kinder.</p>
+<h2 id="deine-rechte">Deine Rechte</h2>
+<p>Nach der DSGVO hast du das Recht auf Auskunft (Art. 15), Berichtigung (Art. 16), Löschung (Art. 17), Einschränkung der Verarbeitung (Art. 18) und Datenübertragbarkeit (Art. 20). Wir speichern keine personenbezogenen Daten über dich, außer einer E-Mail, die du uns geschickt hast; für jedes dieser Rechte genügt eine Nachricht an uns.</p>
+<p><strong>Widerspruchsrecht (Art. 21 DSGVO):</strong> Verarbeiten wir deine Daten auf Grundlage unseres berechtigten Interesses (Art. 6 Abs. 1 lit. f DSGVO), kannst du jederzeit aus Gründen, die sich aus deiner besonderen Situation ergeben, widersprechen. Wir hören dann mit der Verarbeitung auf, außer wir können zwingende schutzwürdige Gründe nachweisen oder brauchen sie für Rechtsansprüche.</p>
+<p>Beruht eine Verarbeitung auf deiner Einwilligung, kannst du sie jederzeit widerrufen; die Verarbeitung bis zum Widerruf bleibt davon unberührt.</p>
+<p>Du hast außerdem das Recht, dich bei einer Datenschutz-Aufsichtsbehörde zu beschweren. In Österreich ist das die Datenschutzbehörde, Barichgasse 40–42, 1030 Wien, <a href="https://www.dsb.gv.at">dsb.gv.at</a>.</p>
+<h2 id="aenderungen">Änderungen</h2>
 <p>Ändert sich diese Erklärung, wird die neue Fassung mit neuem Datum unter dieser Adresse veröffentlicht.</p>
-<h2>Kontakt und Verantwortlicher (Art. 13 DSGVO)</h2>
-<p>Nils Wolf · Erzherzog Rainer-Ring 4, A-2500 Baden, Austria · <a href="mailto:nils.h.wolf@gmail.com">nils.h.wolf@gmail.com</a></p>
-<footer>dropmeter · Measured, not modelled.<br>Nils Wolf · Erzherzog Rainer-Ring 4, A-2500 Baden, Austria · <a href="mailto:nils.h.wolf@gmail.com">nils.h.wolf@gmail.com</a></footer>
+<footer><nav><a href="privacy.html">Datenschutz</a> <a href="support.html">Hilfe</a> <a href="imprint.html">Impressum</a> <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">Nutzungsbedingungen</a></nav>
+<p>dropmeter · Gemessen, nicht gerechnet. · Nils Wolf, 2500 Baden, Österreich · <a href="mailto:nils.h.wolf@gmail.com">nils.h.wolf@gmail.com</a></p></footer>
 </main></body></html>
